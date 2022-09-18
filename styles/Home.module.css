@@ -1,5 +1,12 @@
 .container {
+  display: flex;
+  margin: 10px;
   padding: 0 2rem;
+
+}
+
+.left {
+  width: 20rem;
 }
 
 .main {
@@ -116,13 +123,16 @@
 }
 
 @media (prefers-color-scheme: dark) {
+
   .card,
   .footer {
     border-color: #222;
   }
+
   .code {
     background: #111;
   }
+
   .logo img {
     filter: invert(1);
   }
